@@ -1,5 +1,5 @@
 # colab-webcam
-[![Open In Colab](https://colab.research.google.com/drive/1bhv6ghUKY1W5FhtD85NzajL46u1dWek6?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/drive/1Bqjd4fuSu1uj5o9rpEW-MSxWoAcOZinq#scrollTo=M_btEC1N-YkS)
 
 Notebook for accessing local webcam within Google Colab on Images and Videos. Basic tutorial running face detection on webcam image and video.
 
