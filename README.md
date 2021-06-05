@@ -23,8 +23,8 @@ To learn more about Haar Cascade you can check out the documentation. [Haar Docu
 Running YOLOv4 object detections on webcam images and video is also possible within Google Colab.
 
 Follow this notebook to run YOLOv4 on webcam within Colab: https://colab.research.google.com/drive/1Bqjd4fuSu1uj5o9rpEW-MSxWoAcOZinq?usp=sharing
-### YOLOv4 Video Example
-<p align="center"><img src="yolov4-webcam-demo.gif"\></p>
+### YOLOv4 Image Example
+<p align="center"><img src="photo1.jpg"\></p>
 
 Hope you enjoy!
 
