@@ -1,5 +1,8 @@
 # colab-webcam
-[![Open In Colab](https://colab.research.google.com/github/vp1099/FaceDetection/blob/main/yolov4_webcam.ipynb)
+{ "source": [
+        "<a href=\"https://colab.research.google.com/github/vp1099/FaceDetection/blob/main/OpenCV_FaceDetection_Webcam_Colab.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    }
 
 Notebook for accessing local webcam within Google Colab on Images and Videos. Basic tutorial running face detection on webcam image and video.
 
