@@ -15,8 +15,6 @@ To learn more about Haar Cascade you can check out the documentation. [Haar Docu
 ### Image Example
 <p align="center"><img src="image_example.png"\></p>
 
-### Video Example
-<p align="center"><img src="video_example.gif"\></p>
 
 ## YOLOv4 on Webcam In Google Colab
 Running YOLOv4 object detections on webcam images and video is also possible within Google Colab.
