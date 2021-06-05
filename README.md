@@ -1,5 +1,5 @@
 # colab-webcam
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1QnC7lV7oVFk5OZCm75fqbLAfD9qBy9bw?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/drive/1bhv6ghUKY1W5FhtD85NzajL46u1dWek6?usp=sharing)
 
 Notebook for accessing local webcam within Google Colab on Images and Videos. Basic tutorial running face detection on webcam image and video.
 
@@ -21,8 +21,7 @@ To learn more about Haar Cascade you can check out the documentation. [Haar Docu
 ## YOLOv4 on Webcam In Google Colab
 Running YOLOv4 object detections on webcam images and video is also possible within Google Colab.
 
-Follow this notebook to run YOLOv4 on webcam within Colab: https://colab.research.google.com/drive/1xdjyBiY75MAVRSjgmiqI7pbRLn58VrbE?usp=sharing
-
+Follow this notebook to run YOLOv4 on webcam within Colab: https://colab.research.google.com/drive/1bhv6ghUKY1W5FhtD85NzajL46u1dWek6?usp=sharing
 ### YOLOv4 Video Example
 <p align="center"><img src="yolov4-webcam-demo.gif"\></p>
 
