@@ -1,29 +1,29 @@
-# FaceDetection-Webcam
+# colab-webcam
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1QnC7lV7oVFk5OZCm75fqbLAfD9qBy9bw?usp=sharing)
 
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
+Notebook for accessing local webcam within Google Colab on Images and Videos. Basic tutorial running face detection on webcam image and video.
 
-## Introduction
-The work is originally created by https://github.com/theAIGuysCode/colab-webcam.
-Running in Google Colab, it applies OpenCV's Haar Cascade for face detection in webcam image and video.
+Access Notebook Here: [Link to Notebook](https://colab.research.google.com/drive/1QnC7lV7oVFk5OZCm75fqbLAfD9qBy9bw?usp=sharing)
 
-The advantege for using Haar Cascade for object detection is handy, 
-the disadvantege is not supporting for customization.
+## Webcam In Google Colab
+Accessing your webcam within a Google Colab notebook is not as straightforward as you may think. When you use a Google Colab Runtime you are connecting to a cloud VM hosted by Google. In order to utilize your local machine's webcam within the VM we can utilize JavaScript code.
 
-## Working Mechanism
-Once the image is ready, 
-it is first converted into gray image for faster detection.
-Then Haar Cascade is applied on the image, 
-and the bounding boxes are drawn on the image.
+This tutorial will use OpenCV's pre-trained Haar Cascade Classifier to run face detection on the images and video from our webcam.
 
-For videos, we obtain boxes from the previous frame and draw them on a blank image, 
-then overlay the image on the next frame.
+To learn more about Haar Cascade you can check out the documentation. [Haar Documentation](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_objdetect/py_face_detection/py_face_detection.html)
 
-Since Colab is running in cloud VM, 
-we have to use Javascript to connect Colab with local webcam.
+### Image Example
+<p align="center"><img src="image_example.png"\></p>
 
+### Video Example
+<p align="center"><img src="video_example.gif"\></p>
 
-## Reference
-- [colab-webcam](https://github.com/theAIGuysCode/colab-webcam) by [The AI Guy](https://github.com/theAIGuysCode).
+## YOLOv4 on Webcam In Google Colab
+Running YOLOv4 object detections on webcam images and video is also possible within Google Colab.
 
-- [Browser-based Models with TensorFlow.js](https://www.coursera.org/learn/browser-based-models-tensorflow?specialization=tensorflow-data-and-deployment) by [Laurence Moroney](https://www.coursera.org/instructor/lmoroney) and [DeepLearning.AI](https://www.deeplearning.ai/).
+Follow this notebook to run YOLOv4 on webcam within Colab: https://colab.research.google.com/drive/1xdjyBiY75MAVRSjgmiqI7pbRLn58VrbE?usp=sharing
 
+### YOLOv4 Video Example
+<p align="center"><img src="yolov4-webcam-demo.gif"\></p>
+
+Hope you enjoy!
